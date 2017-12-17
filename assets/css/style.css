@@ -77,8 +77,7 @@ flex-direction:column;
 .btn {
   margin-top: 20px;
    margin:1px;
-    /*background-color: #999999;*/
-    /*border-color: #fff;*/
+    
 }
 
 .btn-info{
@@ -103,7 +102,7 @@ flex-direction:column;
  font-size: 25px;
   margin-top:20px;
   color:#ff99ff;
-  margin-left: 30px;
+  margin-left: 350px;
   padding:0;
 }
 
@@ -139,23 +138,6 @@ flex-direction:column;
 }
 
 
-.randomBtn{
-  background-color: #122b3e;
-  border-color: #122b3e;
-  outline-color: #122b3e;
-}
-
-#random{
-   font-size: 25px;
-  margin-top: 20px;
-  color:#ff99ff;
-}
-
-/*#addGif{
-height:40px;
-  padding:5px;
-}*/
-
 
 #gifInputs{
 margin-top: 5px;
@@ -184,10 +166,6 @@ clear: both;
 }
 
 
-/*rgba(92,7,52,1) 0%,
-      rgba(134,29,84,1) 12%,
-      rgba(255,93,177,1) 47%,
-      rgba(83,0,30,1) 100%*/
 
 
 
