@@ -3,8 +3,7 @@
 body{
 
 background:#122b3e;
-
-
+justify-content: flex-start;
   text-align: center;
   min-height: 100%;
 
@@ -68,8 +67,8 @@ padding:5px;
 
 .topicsGif{
 padding: 15px;
-margin-left: 60px;
-  display: inline-block;
+margin-left: 20px;
+ 
     display: flex;
 flex-direction:column;
 }
@@ -79,7 +78,7 @@ flex-direction:column;
   margin-top: 20px;
    margin:1px;
     /*background-color: #999999;*/
-    border-color: #fff;
+    /*border-color: #fff;*/
 }
 
 .btn-info{
@@ -130,10 +129,7 @@ flex-direction:column;
   background:
     linear-gradient(
       to left, 
-      rgba(92,7,52,1) 0%,
-      rgba(134,29,84,1) 12%,
-      rgba(255,93,177,1) 47%,
-      rgba(83,0,30,1) 100%
+      #92a8d1 0%, #034f84 12%, #f7cac9 47%, #f7786b 100%
     )
     left 
     bottom
@@ -186,3 +182,13 @@ clear: both;
 .giphylogo{
   height:50px;
 }
+
+
+/*rgba(92,7,52,1) 0%,
+      rgba(134,29,84,1) 12%,
+      rgba(255,93,177,1) 47%,
+      rgba(83,0,30,1) 100%*/
+
+
+
+

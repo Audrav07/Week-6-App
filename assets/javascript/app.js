@@ -15,7 +15,7 @@ function displayGifTopics(){
 	console.log(gifImage);
 
 
-var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifImage + "&api_key=5BqhrXIjyWask1DYw7sN1mc1Rq75i9dq&limit=20";
+var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifImage + "&api_key=5BqhrXIjyWask1DYw7sN1mc1Rq75i9dq&limit=25";
 console.log(queryURL);
 	
   
@@ -81,7 +81,7 @@ function displayGifTrends(){
 	console.log(gifTrend);
 
 
-var queryURL = "https://api.giphy.com/v1/gifs/trending?q=" + gifTrend + "&api_key=5BqhrXIjyWask1DYw7sN1mc1Rq75i9dq&limit=20";
+var queryURL = "https://api.giphy.com/v1/gifs/trending?q=" + gifTrend + "&api_key=5BqhrXIjyWask1DYw7sN1mc1Rq75i9dq&limit=25";
 console.log(queryURL);
 	
 
@@ -122,7 +122,7 @@ function displayGifRandom(){
 	console.log(gifRandom);
 
 
-var queryURL = "https://api.giphy.com/v1/gifs/random?q=" + gifRandom + "&api_key=5BqhrXIjyWask1DYw7sN1mc1Rq75i9dq&limit=20";
+var queryURL = "https://api.giphy.com/v1/gifs/random?q=" + gifRandom + "&api_key=5BqhrXIjyWask1DYw7sN1mc1Rq75i9dq&limit=25";
 console.log(queryURL);
 	
 
